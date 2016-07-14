@@ -11,7 +11,7 @@ export const List = React.createClass({
             result.push(<li key={'list-' + index}>{item}</li>);
         });
 
-        return  <ul>
+        return  <ul className='List'>
                     {result}
                 </ul>;
     }
